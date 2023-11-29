@@ -168,7 +168,7 @@ pushd ./runner
 #---------------------------------------
 # Unattend config
 #---------------------------------------
-runner_url="https://github.com/${runner_scope}"
+runner_url="https://github.com/enterprises/inait-sa" # "https://github.com/${runner_scope}"
 if [ -n "${ghe_hostname}" ]; then
     runner_url="https://${ghe_hostname}/${runner_scope}"
 fi
