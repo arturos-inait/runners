@@ -119,7 +119,7 @@ echo
 echo "Generating a registration token for Enterprise..."
 
 # Replace ENTERPRISE_NAME with your actual GitHub Enterprise name
-enterprise_name="ENTERPRISE_NAME"
+enterprise_name="inait-sa"
 
 base_api_url="https://api.github.com"
 
